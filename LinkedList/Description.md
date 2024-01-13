@@ -2,4 +2,4 @@ Some LinkedList Questions from LeetCode
 
 Link to the Questions:-
 
-[Q1](https://leetcode.com/problems/add-two-numbers/description/)
+[Q1](https://leetcode.com/problems/add-two-numbers/) [Q2](https://leetcode.com/problems/linked-list-cycle/)
