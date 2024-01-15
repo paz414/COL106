@@ -1,4 +1,7 @@
-Some LinkedList Questions from LeetCode
+These are some LinkedList Questions from LeetCode.
+
+<b> CAUTION: </b> <br>
+<i> <s>Some</s> Most of the solutions are inefficient as f-ck </i>
 
 Link to the Questions:-
 
