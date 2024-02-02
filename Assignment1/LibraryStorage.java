@@ -7,7 +7,7 @@ public class LibraryStorage {
     private RequestQueue rqQueue;
     private PendingRequests prLinkedList;
 
-    public LibraryStorage() {
+    public LibraryStorage() {   //available books in the library storage
         storage = new HashMap<Integer, BookData>();
         for (int i=100001; i<100011; i++) {
             BookData book = new BookData();
@@ -27,11 +27,11 @@ public class LibraryStorage {
         prLinkedList = new PendingRequests();
     }
 
-    public void push(int ISBN, int UserID) {
+    public void push(int ISBN, int UserID) { //pushing requests into the queue
         rqQueue.push(ISBN, UserID);
     }
 
-    public boolean processQueue() {
+    public boolean processQueue() { //processing requests and figuring which ones to add to the pending requests
         if (storage.get(rqQueue.getFront().ISBN)!=null && !storage.get(rqQueue.getFront().ISBN).BorrowedStatus) {
             storage.get(rqQueue.getFront().ISBN).BorrowedStatus=true;
             storage.get(rqQueue.getFront().ISBN).BorrowedByUserID = rqQueue.getFront().UserID;
