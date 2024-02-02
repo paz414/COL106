@@ -1,7 +1,7 @@
 import Includes.*;
 public class PendingRequests {
     private int length = 0;
-    public Node<RequestData> front;
+    public Node<RequestData> front; // made both front and back public so that Class LibraryStorage can use'em
     public Node<RequestData> back;
 
     public boolean insert(Node<RequestData> insnode) {
