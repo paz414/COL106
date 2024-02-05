@@ -7,3 +7,5 @@ Stacks and Queues Questions ( along with links )
 [MinStack](https://leetcode.com/problems/min-stack/)
 
 [CustomStack](https://leetcode.com/problems/design-a-stack-with-increment-operation/)
+
+[ArrayWithStackOperations](https://leetcode.com/problems/build-an-array-with-stack-operations/)
