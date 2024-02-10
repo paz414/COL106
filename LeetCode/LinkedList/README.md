@@ -6,4 +6,4 @@ These are some LinkedList Questions from LeetCode.
 Link to the Questions:-
 
 [Q1](https://leetcode.com/problems/add-two-numbers/) [Q2](https://leetcode.com/problems/linked-list-cycle/) [Q3](https://leetcode.com/problems/palindrome-linked-list/) [Q4](https://leetcode.com/problems/remove-linked-list-elements/)
-[Q5](https://leetcode.com/problems/reverse-linked-list/)
+[Q5](https://leetcode.com/problems/reverse-linked-list/) [Q6](https://leetcode.com/problems/design-linked-list/description/)
