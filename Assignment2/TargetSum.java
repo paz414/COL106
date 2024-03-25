@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class TargetSum {
     public int numberOfPairs(int arr[], int target) {
         int count=0;
