@@ -14,7 +14,7 @@ public class TargetSum {
     }
     
 }
-/* Line 10 refers is really important 
+/* Line 10 is really important 
 it refers consists of two parts 
 First part,"h.getOrDefault(arr[i],0)+1" 
 in the hashmap we are using the "value" to count the number of 
