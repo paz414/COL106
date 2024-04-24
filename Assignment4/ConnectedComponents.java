@@ -42,6 +42,7 @@ public class ConnectedComponents {
         //Constructing this adjacent list: [[4,9], [8,11,14], [6,13], [], [0,9], [10,13],
         //[2,10], [12], [1,14], [0,4], [5,6], [1,14], [7], [2,5], [1,
         //8,11]]
+        //The answer should be 5
         Vector<Vector<Integer>> adj = new Vector<Vector<Integer>>();
         adj.add(new Vector<>(Arrays.asList(4,9)));
         adj.add(new Vector<>(Arrays.asList(8,11,14)));
